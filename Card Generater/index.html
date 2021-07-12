@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>|| Card Generator ||</title>
+  </head>
+  <body>
+    <div id="heading">
+      <h1>Get A Free Course</h1>
+    </div>
+    <div class="input_fields">
+      <div id="line">
+        <img src="./images/name.jpg" alt="Name" id="img" />
+        <input type="text" id="name" placeholder="customer name" />
+      </div>
+      <div id="line">
+        <img src="./images/course.png" alt="Course" id="img" />
+        <input type="text" id="course" placeholder="course" />
+      </div>
+      <div id="line">
+        <img src="./images/author1.jpg" alt="Author" id="img" />
+        <input type="text" id="author" placeholder="author" />
+      </div>
+      <button id="create" onclick="createCard(event)">Create Card</button>
+
+      <div id="loading"></div>
+
+      <div id="cards"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
