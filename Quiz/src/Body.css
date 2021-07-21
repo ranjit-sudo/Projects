@@ -1,0 +1,38 @@
+.list-group {
+  width: 600px;
+  position: absolute;
+  top: 30%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+.question {
+  background-color: rgb(204, 0, 255);
+  border: 1px solid rgb(153, 0, 204);
+  color: whitesmoke;
+  height: 60px;
+  padding: 10px;
+  border-radius: 3px;
+}
+a {
+  text-decoration: none;
+}
+.options,
+#btn {
+  border-radius: 3px;
+}
+
+#submit {
+  background-color: rgb(204, 0, 255);
+  border: 1px solid rgb(153, 0, 204);
+  margin-left: 500px;
+  margin-top: 10px;
+}
+#loading {
+  text-align: center;
+  font-weight: 400;
+  color: rgb(204, 0, 255);
+  margin-top: 60px;
+}

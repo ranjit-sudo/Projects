@@ -1,0 +1,18 @@
+.head {
+  height: 60px;
+  display: flex;
+  background-color: rgb(204, 0, 255);
+  width: 100%;
+  border: 1px solid rgb(153, 0, 204);
+  position: fixed;
+  top: 0;
+  color: whitesmoke;
+  border-radius: 3px;
+  font-weight: 700;
+  margin: 0;
+  z-index: 100;
+}
+.head > h1 {
+  padding-left: 45%;
+  padding-top: 5px;
+}
