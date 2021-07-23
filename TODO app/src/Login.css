@@ -1,0 +1,55 @@
+html {
+  background-color: #1f2833;
+}
+.login {
+  background-color: #1f2833;
+  margin-top: 0;
+
+  height: 100vh;
+}
+.heading {
+  padding-top: 100px;
+  text-align: center;
+  color: #66fcf1;
+}
+.subHeading {
+  text-align: center;
+  padding-top: 30px;
+  color: #66fcf1;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.input {
+  width: 250px;
+  height: 30px;
+  border-radius: 3px;
+  border: none;
+}
+.pass {
+  width: 250px;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: none;
+}
+.pass:focus,
+.input:focus {
+  outline: none;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.btn {
+  width: 255px;
+  height: 33px;
+  font-weight: 650;
+  margin-top: 10px;
+  color: #66fcf1;
+  background-color: black;
+  border-radius: 3px;
+  border: 1px solid;
+}
