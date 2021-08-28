@@ -1,0 +1,105 @@
+.heading {
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0.5rem 0px;
+  margin-left: 10%;
+  text-align: left;
+  color: whitesmoke;
+  font-family: "Times New Roman", Times, serif;
+}
+.inner {
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  text-align: left;
+  justify-content: space-around;
+}
+a {
+  background: transparent;
+  color: rgb(3, 2, 0);
+  text-decoration: none;
+  font-weight: 550;
+}
+.card1 {
+  flex: 1 1 180px;
+  text-align: left;
+  padding: 10px;
+  transition: all 0.2s ease-in-out;
+  margin: 10px;
+  border-radius: 3px;
+  background-image: linear-gradient(to bottom right, red, yellow);
+}
+.card2 {
+  flex: 1 1 180px;
+  text-align: left;
+  transition: all 0.2s ease-in-out;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 3px;
+  background-image: linear-gradient(to right, purple, rgb(163, 93, 104));
+}
+
+.card3 {
+  flex: 1 1 180px;
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+  transition: all 0.2s ease-in-out;
+  border-radius: 3px;
+  background-image: linear-gradient(to right, rgb(45, 182, 91), yellow);
+}
+.card4 {
+  flex: 1 1 180px;
+  transition: all 0.2s ease-in-out;
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 3px;
+  background-image: linear-gradient(
+    to left,
+    rgb(186, 82, 196),
+    rgb(0, 225, 255)
+  );
+}
+.card5 {
+  flex: 1 1 180px;
+  text-align: left;
+  transition: all 0.2s ease-in-out;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 3px;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+}
+.card6 {
+  flex: 1 1 180px;
+  text-align: left;
+  transition: all 0.2s ease-in-out;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 3px;
+  background-image: linear-gradient(to top, #654ea3, #eaafc8);
+}
+.inner > span {
+  background: transparent;
+}
+.inner > h2 {
+  background: transparent;
+}
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover,
+.card5:hover,
+.card6:hover {
+  width: 100%;
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: box-shadow 1s ease-in-out;
+}

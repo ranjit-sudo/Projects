@@ -1,0 +1,22 @@
+.greeting {
+  margin-left: 10%;
+  text-align: left;
+  width: 100%;
+}
+.name {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0.5rem 0px 1rem;
+  font-size: 3rem;
+  text-shadow: rgba(255, 255, 255, 0.15) 0px 5px 35px;
+  letter-spacing: 0.025em;
+  color: whitesmoke;
+}
+.desc {
+  font-size: 1rem;
+  letter-spacing: -0.003em;
+  line-height: 1.625;
+  color: whitesmoke;
+  font-family: "Times New Roman", Times, serif;
+}

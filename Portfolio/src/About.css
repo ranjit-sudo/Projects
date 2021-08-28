@@ -1,0 +1,35 @@
+.about {
+  margin-bottom: 30px;
+  margin-left: 10%;
+  text-align: left;
+  width: 100%;
+}
+* {
+  color: whitesmoke;
+}
+.contain {
+  display: flex;
+  justify-content: space-evenly;
+  flex: flex-grow flex-shrink flex-basis;
+}
+.right,
+.left {
+  float: right;
+  width: 50%;
+}
+button {
+  margin: 10px;
+  border-radius: 3px;
+  border: none;
+  text-align: center;
+  height: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 200%;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(160, 33, 245),
+    rgb(28, 219, 162),
+    rgb(25, 228, 235)
+  );
+  width: 150px;
+}

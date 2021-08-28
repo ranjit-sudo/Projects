@@ -1,0 +1,20 @@
+.contact {
+  margin-left: 10%;
+  text-align: left;
+  width: 100%;
+}
+.media > a > img {
+  height: 70px;
+  width: 70px;
+}
+.media {
+  display: flex;
+  justify-content: space-evenly;
+  flex: flex-grow flex-shrink flex-basis;
+}
+.img2 {
+  border-radius: 17px;
+}
+.img3 {
+  border-radius: 10px;
+}
